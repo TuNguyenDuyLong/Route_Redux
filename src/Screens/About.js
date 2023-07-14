@@ -8,7 +8,7 @@ function About() {
     const { productID } = useParams
 
     return <div>This is my About: ------------
-        ABOUT'S ID: {productID}
+        ABOUT'S ID: {productID} <br /> <br />
         <button onClick={() => { navigate('/') }}> RETURN TO MY HOME</button>
     </div>
 }

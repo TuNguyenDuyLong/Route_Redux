@@ -7,7 +7,7 @@ function Products() {
     const navigate = useNavigate()
     const { productID } = useParams
     return <div>This is my Products: ----------
-        PRODUCT'S ID: {productID}
+        PRODUCT'S ID: {productID} <br /> <br />
         <button onClick={() => { navigate('/') }}> RETURN TO MY HOME</button>
     </div>
 }
